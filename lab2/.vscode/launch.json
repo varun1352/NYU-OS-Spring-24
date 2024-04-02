@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch with LLDB",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/Users/varundeliwala/NYU/Spring 24/OS/Labs/lab2/schedulerv2", // Change this to your actual executable
+            "args": ["-s", "P4:1",
+            "/Users/varundeliwala/NYU/Spring 24/OS/Labs/lab2/lab2_assign/input0",
+            "/Users/varundeliwala/NYU/Spring 24/OS/Labs/lab2/lab2_assign/rfile"], // Any arguments
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "logging": {
+                "engineLogging": true // Optional, but helpful for debugging the debugger
+            }
+        }
+    ]
+}
